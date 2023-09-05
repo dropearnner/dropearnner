@@ -1,0 +1,90 @@
+.logo {
+    width: auto;
+    height: 35px;
+}
+
+.logo2 {
+    width: auto;
+    height: 20px;
+    margin-left: -6px;
+}
+
+.logofont {
+    font-size: 20px;
+    margin-left: -6px;
+}
+
+.hyphen{
+    border-radius: var(--border-radius-large);
+    margin-top: 10px;
+    margin-left: -23px;
+    margin-right: -23px;
+    padding: 10px;
+    display: inline-block;
+    color: var(--white-color);
+    font-family: var(--title-font-family);
+    font-size: var(--menu-font-size);
+    font-weight: var(--font-weight-medium);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    position: relative
+}
+.singnbutton:active{
+    color: red;
+}
+.singnbutton:hover{
+    color: brown;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-slider {
+    position: relative;
+    width: 100vw;
+    height: 400px;
+}
+
+.img-slider .slider-container {
+    position: absolute;
+    width: 300%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    animation: slider 26s infinite;
+}
+
+.img-slider .slider-container .slide {
+    position: relative;
+    width: 33.33333333%;
+    height: 100%;
+    float: left;
+    overflow: hidden
+}
+
+.img-slider .slider-container .slide img {
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+@keyframes slider {
+
+    0%,
+    25%,
+    100% {
+        left: 0
+    }
+
+    30%,
+    55% {
+        left: -100%
+    }
+
+    60%,
+    85% {
+        left: -200%
+    }
+}
