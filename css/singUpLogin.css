@@ -181,3 +181,26 @@ form .page .btns button.next{
   display: block;
   color: #fff;
 }
+/*send otp BUTTON Hover*/
+
+* {
+  box-sizing: border-box;
+} 
+
+body {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin:50px auto;
+}
+
+.form-group {
+  position: absolute;
+  top:50%
+}
+
+.button {
+  position: absolute;
+  top:50%;
+  background-color:#0a0a23;
+}
